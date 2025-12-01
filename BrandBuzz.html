@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrandBuzz</title>
+    <link rel="stylesheet" href="BrandBuzz.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+<body>
+    <header>
+        <nav>
+            <img src="/pictures/top_logo-removebg-preview.png" alt="logo" width="120px">
+            <ul class="desktop-nav">
+                <li><a href="#home" style="color:  #f56d1f;">Home</a></li>
+                <li><a href="#about us">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact us">Contact</a></li>
+                <li><a href="#blog">Blog</a></li>
+            <button class="ring-float">Sign Up</button>
+            </ul>
+            <button class="hamburger" aria-label="Open navigation">
+                <i class="fa fa-bars"></i>
+            </button>
+            <div class="mobile-nav">
+                <a href="#home">Home</a>
+                <a href="#about us">About us</a>
+                <a href="#services">Services</a>
+                <a href="#contact us">Contact us</a>
+                <a href="#blog">Blog</a>
+                <a href="#signup" class="mobile-signup">Sign Up</a>
+            </div>
+        </nav>
+</html>
+<script>
+// Hamburger menu toggle
+const hamburger = document.querySelector('.hamburger');
+const mobileNav = document.querySelector('.mobile-nav');
+hamburger.addEventListener('click', function() {
+    mobileNav.classList.toggle('open');
+    hamburger.classList.toggle('open');
+});
+</script>
+    </header>
+
+    <!-- main section -->
+     <main>
+        <section class="hero">
+        <h1>We create </br><span style="color: #f56d1f;">solution</span> for</br> our business </h1>
+        <p>Our team keeps a keen eye on emerging trends</br> and technologies to ensure your marketing</br> campaigns remain cutting-edge</p>
+        <button class="ring-float" style="width: 120px;">Get Started</button>
+
+        <div class="explore-container">
+        <div class="icon-circle">
+            <div class="triangle"></div>
+        </div>
+        <span class="explore-text">Explore more</span>
+        </div>
+
+        </section>
+        <div class="hero-img">
+          <img src="/pictures/emg.jpeg" alt="image" >
+        </div>
+                <div class="hero-img2">
+          <img src="/pictures/2emg.jpeg" alt="image" >
+        </div>
+     </main>
+
+     <!-- services section -->
+      <section class="services">
+        <h2>We Provide The Best <span style="color: #f56d1f;">Services</span></h2>
+        <p style="text-align: center; font-size: 17px;">Lets us unlock the full potential of your business</br>with our data-driven strategies.</p1>
+
+        <div class="container">
+
+            <div class="box">
+                <div class="icon-box1">
+                    <i class="fa-solid fa-gear"></i>
+                </div>
+                <h3>Set/Smm</h3>
+                <p>Our team ensure the security of your social medial</p>
+            </div>
+
+            <div class="box2">
+                <div class="icon-box2">
+                    <i class="fa-solid fa-bullhorn"></i>
+                </div>
+                <h3>Marketing</h3>
+                <p>We help your business grow through targeted digital...</p>
+            </div>
+
+            <div class="box3">
+                <div class="icon-box3">
+                    <i class="fa-solid fa-arrow-up-right-dots"></i>
+                </div>
+                <h3>Viral Campaign</h3>
+                <p>Grow your online presence with our viral...</p>
+            </div>
+
+            <div class="box4">
+                <div class="icon-box4">
+                    <i class="fa-solid fa-users"></i>
+                </div>
+                <h3>Others</h3>
+                <p>We offer a wide range of other services</p>
+            </div>
+            
+        </div>
+      </section>
+        <!-- simple solution section -->
+
+        <section class="solution">
+
+                <img src="/pictures/mmg-removebg-preview.png" style="width: 350px; height: 350px; margin-left: 10%; margin-top: 6%;" >
+            <div class="simple">
+                <h4 style="font-size: 30px;">Simple <span style="color: #f56d1f;">Solution !</span></h4>
+                <p style="font-size: 12px; margin-top: -28px;">We understand that no two business</br> are alike. that`s why we take the</br> time to understand </p>
+
+                <div class="step">
+                    <div class="circle">1</div>
+                    <div class="step-text">
+                        <h5>Contact us</h5>
+                        <p>Contact with us to meet your brand`s needs.</p>
+                    </div>
+                </div>
+                <div class="line"></div>
+
+                <div class="step">
+                    <div class="circle">2</div>
+                    <div class="step-text">
+                        <h5>Consult</h5>
+                        <p>We provide consultation to answer your questions</p>
+                    </div>
+                </div>
+                <div class="line"></div>
+
+                <div class="step">
+                    <div class="circle">3</div>
+                    <div class="step-text">
+                        <h5>Place order</h5>
+                        <p>Share your package details for the project</p>
+                    </div>
+                </div>
+                <div class="line"></div>
+
+                <div class="step">
+                    <div class="circle">4</div>
+                    <div class="step-text">
+                        <h5>Payment</h5>
+                        <p>Process your payment</p>
+                    </div>
+                </div>
+                <!-- button section -->
+                 <div class="btn-sec">
+                    <button class="btn-glow">Get Started</button>
+                    <button class="float-up">Read More</button>
+                 </div>
+            </div>
+        </section>
+        <section class="agency">
+            <div class="agency-text">
+            <h6>Our <span style="color: #f56d1f;">Agency</span></h6>
+            <p>We believe in the power of data. Our </br>analytics-driven approach allows us to make </br>informed </br>decisions and optimize your marketing</br> efforts for maximum ROI. Let’s turn your</br> data into actionable insights. Tailored</br> Solutions for Your Business</p>
+            <button class="btn-5">Read more</button>
+            </div>
+            <img src="/pictures/mm-removebg-preview.png" style="max-width: 110%; height: 320px; margin-left: 10%; margin-top: 0%;" >
+        </section>
+        <!-- testimonials section -->
+        <section class="t-section">
+            <div class="t-text">
+                <h1>What <span style="color: #f56d1f;">Clients</span> Say!</h1>
+                <p style="color: #555;">See How Our Digital Marketing Agency Helped</br>Clients Achieve Their Goals</p>
+            </div>
+        <div class="t-container">
+
+            <div class="t-box">
+                <div class="image-box1">
+                    <img src="/pictures/ahmed.jpeg" width="50px" height="50px" style="border-radius: 50%;">
+                </div>
+                <div class="h-box">
+                <h3><span style="color: #f56d1f;">Joseph Awell</span></h3>
+                <p>Verified User</p><div class="mark"><i class="fa-solid fa-check"></i></div>
+                <p1 style="font-size: 12px;">Lorem ipsum has been the industry’s standard dummy </br>text ever since the 1500s, when an unknown… (cut off)</p1>
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                </div> 
+            </div>
+
+            <div class="t-box2">
+                <div class="image-box2">
+                    <img src="/pictures/min heung.jpeg" width="50px" height="50px" style="border-radius: 50%;">
+                </div>
+                <div class="h-box2">
+                    <h3><span style="color: #f56d1f;">Timothy Joel</span></h3>
+                    <p>Verified User</p><div class="mark"><i class="fa-solid fa-check"></i></div>
+                    <p2 style="font-size: 12px;">Lorem ipsum has been the industry’s standard dummy </br>text ever since the 1500s, when an unknown… (cut off)</p2>
+                    <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+                        <div class="t-box2">
+                <div class="image-box2">
+                    <img src="/pictures/timothy.jpeg" width="50px" height="50px" style="border-radius: 50%;">
+                </div>
+                <div class="h-box2">
+                    <h3><span style="color: #f56d1f;">Timothy Joel</span></h3>
+                    <p>Verified User</p><div class="mark"><i class="fa-solid fa-check"></i></div>
+                    <p2 style="font-size: 12px;">Lorem ipsum has been the industry’s standard dummy </br>text ever since the 1500s, when an unknown… (cut off)</p2>
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                </div>
+            </div>
+
+                        <div class="t-box2">
+                <div class="image-box2">
+                    <img src="/pictures/henry lucas.jpeg" width="50px" height="50px" style="border-radius: 50%;">
+                </div>
+                <div class="h-box2">
+                    <h3><span style="color: #f56d1f;">Timothy Joel</span></h3>
+                    <p>Verified User</p><div class="mark"><i class="fa-solid fa-check"></i></div>
+                    <p2 style="font-size: 12px;">Lorem ipsum has been the industry’s standard dummy </br>text ever since the 1500s, when an unknown… (cut off)</p2>
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                </div>
+            </div>
+
+        </div>
+        </div>
+        </section>
+
+        <footer class="footer">
+
+            <div class="cta-bar">
+                <span style="font-size: 30px;">Ready to get started?</span>
+                <button class="cta-btn">Contact us</button>
+            </div>
+
+            <div class="footer-content">
+
+                <div class="brand">
+                    <img src="/pictures/top_logo-removebg-preview.png" width="120px" height="120px">
+
+                    <div class="social-icon">
+                        <i class="fa-brands fa-facebook fa-2xl" style="color: blue;"></i>
+                        <i class="fa-brands fa-square-instagram fa-2xl" style="color: rgb(255, 1, 153)"></i>
+                        <i class="fa-brands fa-square-twitter fa-2xl" style="color:#1DA1F2;"></i>
+                    </div>
+                </div>
+
+                <div class="links">
+
+                    <div>
+                      <h4>Company</h4>
+                      <p>About</p>
+                      <p>Blog</p>
+                      <p>Contact</p>
+                      <p>Careers</p>
+                      <p>Teams</p>
+                    </div>
+
+                    <div>
+                        <h4>Designs</h4>
+                        <p>Designs creative</p>
+                        <p>Template</p>
+                        <p>Free ui graphics</p>
+                        <p>Product promotion</p>
+                        <p>Pricing</p>
+                    </div>
+
+                    <div>
+                        <h4>Resources</h4>
+                        <p>Become a designer</p>
+                        <p>Design workshop</p>
+                        <p>Design tutorials</p>
+                        <p>Affiliates</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">©️ All rights reserved 2025</div>
+        </footer>
+</body>
+</body>
+</html>
